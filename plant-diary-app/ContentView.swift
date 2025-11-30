@@ -3,15 +3,25 @@ import CoreData
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Plant.name, ascending: true)],
-            animation: .default
-        )
-
-
-    private var plantas: FetchedResults<Plant>
     
     var body: some View {
-        Text("Total plantas: \(plantas.count)")
+        TabView {
+            PlantListView()
+                .tabItem {
+                    Label("Mis Plantas", systemImage: "leaf.fill")
+                }
+            
+            LocationGridView()
+                .tabItem {
+                    Label("Ubicaciones", systemImage: "square.grid.2x2.fill")
+                }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
