@@ -15,6 +15,8 @@
 		B7F119862EDC9B6F003AA183 /* plant_diary_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7F119842EDC9B6F003AA183 /* plant_diary_app.xcdatamodeld */; };
 		B7F1198F2EDCA75B003AA183 /* PlantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F1198E2EDCA75B003AA183 /* PlantListView.swift */; };
 		B7F119912EDCAB5B003AA183 /* AddPlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F119902EDCAB5B003AA183 /* AddPlantView.swift */; };
+		B7F119932EDCAF9D003AA183 /* LocationGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F119922EDCAF9D003AA183 /* LocationGridView.swift */; };
+		B7F119952EDCB24F003AA183 /* PlantsByLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F119942EDCB24F003AA183 /* PlantsByLocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		B7F119852EDC9B6F003AA183 /* plant_diary_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = plant_diary_app.xcdatamodel; sourceTree = "<group>"; };
 		B7F1198E2EDCA75B003AA183 /* PlantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListView.swift; sourceTree = "<group>"; };
 		B7F119902EDCAB5B003AA183 /* AddPlantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantView.swift; sourceTree = "<group>"; };
+		B7F119922EDCAF9D003AA183 /* LocationGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationGridView.swift; sourceTree = "<group>"; };
+		B7F119942EDCB24F003AA183 /* PlantsByLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsByLocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				B7F1197F2EDC9B6F003AA183 /* Preview Content */,
 				B7F1198E2EDCA75B003AA183 /* PlantListView.swift */,
 				B7F119902EDCAB5B003AA183 /* AddPlantView.swift */,
+				B7F119922EDCAF9D003AA183 /* LocationGridView.swift */,
+				B7F119942EDCB24F003AA183 /* PlantsByLocationView.swift */,
 			);
 			path = "plant-diary-app";
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 				B7F1198F2EDCA75B003AA183 /* PlantListView.swift in Sources */,
 				B7F1197A2EDC9B6D003AA183 /* plant_diary_appApp.swift in Sources */,
 				B7F119862EDC9B6F003AA183 /* plant_diary_app.xcdatamodeld in Sources */,
+				B7F119952EDCB24F003AA183 /* PlantsByLocationView.swift in Sources */,
+				B7F119932EDCAF9D003AA183 /* LocationGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
